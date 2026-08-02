@@ -1,7 +1,26 @@
 aid: within
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/within.png
 name: Within
-description: Within is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Within (Within Unlimited, Inc.) is a Los Angeles virtual-reality studio founded in 2014
+  by Chris Milk and Aaron Koblin, both alumni of Google's Data Arts team. Andreessen Horowitz (a16z)
+  led the company's 2016 Series A. Within builds Supernatural, a VR fitness service for Meta Quest
+  headsets that pairs live human coaches with rhythm-mapped workouts set in 360-degree virtual
+  locations; its earlier work spans immersive 360 video and AR (Clouds Over Sidra, Wonderscope).
+  Meta Platforms acquired Within in February 2023 after the FTC's challenge to the deal failed, and
+  it now operates as a Meta studio. Within is a consumer VR product company and publishes no public
+  developer API, OpenAPI, SDK, or developer portal; its primary domain within.com is currently
+  parked. This profile is retained as an a16z portfolio lead with no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/within/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,29 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Meta Platforms
+x-acquired-date: '2023-02'
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Virtual Reality
+- VR
+- Fitness
+- Consumer
+- Immersive Media
+- Meta
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
